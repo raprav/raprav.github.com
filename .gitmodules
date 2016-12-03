@@ -1,0 +1,3 @@
+[submodule "charla-angular-firebase"]
+	path = charla-angular-firebase
+	url = https://github.com/raprav/charla-angular-firebase.git
