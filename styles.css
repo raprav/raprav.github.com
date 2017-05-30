@@ -189,19 +189,20 @@ h1, h2, h3, h4 {
   display: block;
   height: 100%;
   position: relative;
-  background-color: #abadc6;
+  background-color: #abc0c6;
   width: 50%;
 }
 .comp .mid.codigo {
+  /* zoom: 0.9; */
   background-color: #22262b;
 }
 .comp .site {
   overflow: hidden;
   position: absolute;
-  width: 105px;
+  width: 108px;
   height: 138px;
   bottom: 0;
-  right: 0;
+  right: 9px;
 }
 .comp .site .topbar {
   width: 100%;
@@ -214,22 +215,35 @@ h1, h2, h3, h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   border-radius: 4px 4px 0px 0px;
-  background-color: #afa895;
+  background-color: #b2b0b3;
 }
 .comp .site .cerrar > div {
   display: inline-block;
   width: 2px;
   height: 2px;
   border-radius: 50%;
-  background: white;
+  /* background: white; */
   margin: 0px 1px;
 }
+
+.cerrar-btn {
+  background-color: #fd605b;
+}
+
+.minimizar-btn {
+  background-color: #fdbf45;
+}
+
+.fullscreen-btn {
+  background-color: #35c84a;
+}
+
 .comp .site .inhead {
   padding: 2px;
   height: 5px;
@@ -255,8 +269,11 @@ h1, h2, h3, h4 {
   background-color: #efebe2;
 }
 .comp .incont {
-  padding-top: 10px;
+  padding-top: 1px;
   background: #fefaf0;
+  height: auto;
+  zoom: 0.12;
+  padding-bottom: 50vh;
 }
 .comp .incont .item {
   background-color: #d1c9bf;
